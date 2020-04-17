@@ -19,15 +19,21 @@ public class Assignment1Part2 extends KarelTheRobot {
 
     private void goToBottom() throws Exception {
         turnAround();
-        while (frontIsClear()) {
-            move();
+        if(frontIsBlocked()) {
+            turnLeft();
         }
-        turnLeft();
+        else {
+            while (frontIsClear()) {
+                move();
+            }
+            turnLeft();
+        }
     }
 
     private void putBeepers() throws Exception {
         if(frontIsClear() && (leftIsBlocked())){
             putBeeper();
+            turnLeft();
         } else {
             turnLeft();
             if (noBeepersPresent()) {
@@ -41,6 +47,7 @@ public class Assignment1Part2 extends KarelTheRobot {
             }
         }
     }
+
 
     private void moveToNextColumn() throws Exception{
         for(int i=0; i<4; i++){
