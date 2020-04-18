@@ -4,9 +4,14 @@ import com.shpp.karel.KarelTheRobot;
 
 public class Assignment1Part4 extends KarelTheRobot {
 
+    // Prerequisites: Karel stands in the Northeast corner and looks to the West
+    // Result: Karel creates a chessboard
     public void run() throws Exception {
         createMap();
     }
+
+    // Prerequisites: Karel stands in the Southeast corner and looks West
+    // Result: Karel walks in rows, collects extra beeps and puts them where needed
     public void createMap() throws Exception {
         while (frontIsClear()) {
             pickAndPutFirst();
@@ -16,24 +21,21 @@ public class Assignment1Part4 extends KarelTheRobot {
             }
         }
 
-    private void goNextRaw() throws Exception {
-        turnAround();
-        goToFirst();
-        changeTheRaw();
-    }
-
-
-    private void goToFirst() throws Exception {
+    // Karel looks East and moves to the wall
+        private void goToFirst() throws Exception {
         while (frontIsClear()){
             move();
         }
     }
 
+    // Karel turn around
     private void turnAround() throws Exception {
         turnLeft();
         turnLeft();
     }
 
+    // Prerequisites: Karel stands on the West Line and looks East
+    // Result: Karel collects and puts beepers on odd rows
     private void pickAndPutFirst() throws Exception {
         while (frontIsClear()) {
             pickBeepers();
@@ -50,6 +52,8 @@ public class Assignment1Part4 extends KarelTheRobot {
         }
     }
 
+    // Prerequisites: Karel stands on the West Line and looks East
+    // Result: Karel collects and puts beepers on even rows
     private void pickAndPutSecond() throws Exception {
         while (frontIsClear()) {
             pickBeepers();
@@ -63,7 +67,7 @@ public class Assignment1Part4 extends KarelTheRobot {
         }
     }
 
-
+    // Karel collects beepers, if it is
     private void pickBeepers() throws Exception {
         if(beepersPresent()){
             while (beepersPresent())
@@ -71,6 +75,7 @@ public class Assignment1Part4 extends KarelTheRobot {
         }
     }
 
+    // Karel puts 4 beepers
     private void putBeepers() throws Exception {
         if(noBeepersPresent()) {
             for (int i = 0; i < 4; i++) {
@@ -81,6 +86,7 @@ public class Assignment1Part4 extends KarelTheRobot {
 
 
 
+    // Karel goes up one line
     private void changeTheRaw() throws Exception {
         turnRight();
         if (frontIsClear()) {
@@ -89,6 +95,16 @@ public class Assignment1Part4 extends KarelTheRobot {
         }
     }
 
+    // Background: Karel stands in the Eastern Column
+    // Result: Karel rises one line higher
+    private void goNextRaw() throws Exception {
+        turnAround();
+        goToFirst();
+        changeTheRaw();
+    }
+
+
+    // Karel turns right
     private void turnRight() throws Exception {
         for(int i=0; i<3; i++){
             turnLeft();
