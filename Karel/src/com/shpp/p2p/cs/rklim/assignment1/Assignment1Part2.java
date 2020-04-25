@@ -40,25 +40,24 @@ public class Assignment1Part2 extends KarelTheRobot {
         }
     }
 
-    //Передумови: Карел стоїть на вершині колони та дивиться на Північ
-    //Результат: Він повертається на початок колони та повератається на Захід
+    // Prerequisites: Karel stands at the top of the column and looks north
+    // Result: It returns to the beginning of the column and returns to the West
     private void goToBottom() throws Exception {
         turnAround();
-        if(frontIsBlocked()) {
-            turnLeft();
-        }
-        else {
+        if (!frontIsBlocked()) {
             while (frontIsClear()) {
                 move();
             }
-            turnLeft();
         }
+        turnLeft();
     }
 
     // Karel moves on to the next column
     private void moveToNextColumn() throws Exception{
-        for(int i=0; i<4; i++){
-            move();
+        for(int i=0; i<4; i++) {
+            if (frontIsClear()) {
+                move();
+            }
         }
     }
 

@@ -13,6 +13,10 @@ public class Assignment1Part4 extends KarelTheRobot {
     // Prerequisites: Karel stands in the Southeast corner and looks West
     // Result: Karel walks in rows, collects extra beeps and puts them where needed
     public void createMap() throws Exception {
+        if(frontIsBlocked()){
+            turnLeft();
+            pickAndPutFirst();
+        }
         while (frontIsClear()) {
             pickAndPutFirst();
             goNextRaw();
@@ -78,9 +82,7 @@ public class Assignment1Part4 extends KarelTheRobot {
     // Karel puts 4 beepers
     private void putBeepers() throws Exception {
         if(noBeepersPresent()) {
-            for (int i = 0; i < 4; i++) {
                 putBeeper();
-            }
         }
     }
 

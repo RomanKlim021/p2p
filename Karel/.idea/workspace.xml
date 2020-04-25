@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4920e0b2-fc30-491c-910c-1cdabe324c66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/libraries/shpp_cs_java_lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/Assignment2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment2/src/shpp-cs-java-lib.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Karel/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/shpp/p2p/cs/rklim/assignment1/Assignment1Part4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/shpp/rshmelev/cs/shpp-karel-lib.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,17 +54,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\darks\Desktop\P2P\Karel\src\com\shpp\rshmelev\cs" />
+      <recent name="C:\Users\darks\Desktop\P2P\Karel\static\mazes" />
+      <recent name="C:\Users\darks\Desktop\P2P\Karel\src\static\mazes" />
+      <recent name="C:\Users\darks\Desktop\P2P\Karel\src\Static\mazes" />
       <recent name="C:\Users\darks\Desktop\P2P\Karel\src" />
+      <recent name="C:\Users\darks\Desktop\P2P\Karel\src\com\shpp\rshmelev\cs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\darks\Desktop\P2P\Karel" />
       <recent name="C:\Users\darks\Desktop\P2P\Karel\src" />
       <recent name="C:\Users\darks\Desktop\P2P\Karel\src\com\shpp\rshmelev\cs" />
       <recent name="C:\Users\darks\Desktop\P2P\Karel\src\com\shpp" />
       <recent name="C:\Users\darks\Desktop\P2P\Karel\src\com\company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Assignment1Part3">
+  <component name="RunManager" selected="Application.Assignment1Part3 (1)">
     <configuration name="Assignment1Part2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shpp.p2p.cs.rklim.assignment1.Assignment1Part2" />
       <module name="Karel" />
@@ -69,12 +82,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Assignment1Part3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Assignment1Part3 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shpp.p2p.cs.rklim.assignment1.Assignment1Part3" />
       <module name="Karel" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.shpp.p2p.cs.rklim.assignment1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment1Part3 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shpp.p2p.cs.eklymovska.assignment1.Assignment1Part3" />
+      <module name="Karel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shpp.p2p.cs.eklymovska.assignment1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment1Part4 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shpp.p2p.cs.eklymovska.assignment1.Assignment1Part4" />
+      <module name="Karel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shpp.p2p.cs.eklymovska.assignment1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,52 +134,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Chess2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shpp.rshmelev.cs.Chess2" />
-      <module name="Karel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shpp.p2p.cs.rklim.assignment1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MidpointFinding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shpp.rshmelev.cs.MidpointFinding" />
-      <module name="Karel" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.shpp.p2p.cs.rklim.assignment1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="shpp-karel-lib.jar" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/src/com/shpp/rshmelev/cs/shpp-karel-lib.jar" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MidpointFinding" />
-      <item itemvalue="Application.Chess2" />
+      <item itemvalue="Application.Assignment1Part3 (1)" />
+      <item itemvalue="Application.Assignment1Part3 (2)" />
+      <item itemvalue="Application.Assignment1Part4 (1)" />
+      <item itemvalue="JAR Application.shpp-karel-lib.jar" />
       <item itemvalue="Application.Assignment1Part2" />
       <item itemvalue="Application.Assignment1Part4" />
-      <item itemvalue="Application.Assignment1Part3" />
-      <item itemvalue="JAR Application.shpp-karel-lib.jar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Assignment1Part3" />
-        <item itemvalue="Application.Assignment1Part2" />
+        <item itemvalue="Application.Assignment1Part3 (1)" />
         <item itemvalue="Application.Assignment1Part4" />
-        <item itemvalue="Application.Chess2" />
-        <item itemvalue="Application.MidpointFinding" />
+        <item itemvalue="Application.Assignment1Part2" />
+        <item itemvalue="Application.Assignment1Part4 (1)" />
+        <item itemvalue="Application.Assignment1Part3 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +175,19 @@
       <workItem from="1587158401770" duration="1195000" />
       <workItem from="1587163657801" duration="3219000" />
       <workItem from="1587212616456" duration="849000" />
+      <workItem from="1587220105132" duration="636000" />
+      <workItem from="1587221278070" duration="638000" />
+      <workItem from="1587558625608" duration="304000" />
+      <workItem from="1587564465727" duration="3312000" />
+      <workItem from="1587648492278" duration="55000" />
+      <workItem from="1587652628063" duration="1696000" />
+      <workItem from="1587654408968" duration="47000" />
+      <workItem from="1587654510765" duration="1139000" />
+      <workItem from="1587659332718" duration="15000" />
+      <workItem from="1587662079931" duration="1616000" />
+      <workItem from="1587749140961" duration="747000" />
+      <workItem from="1587815269411" duration="22000" />
+      <workItem from="1587829654034" duration="604000" />
     </task>
     <servers />
   </component>
@@ -177,58 +203,58 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="523" y="162" key="DetectedRootsChooserDialog/0.30.1536.834@0.30.1536.834" timestamp="1586858752170" />
-    <state x="473" y="188" key="FileChooserDialogImpl" timestamp="1586859286192">
+    <state x="473" y="188" key="FileChooserDialogImpl" timestamp="1587815289819">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="473" y="188" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1586859286192" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1587166879289">
+    <state x="473" y="188" key="FileChooserDialogImpl/0.30.1536.834@0.30.1536.834" timestamp="1587815289819" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1587830258599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1587166879289" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1587166879289">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1587830258599" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1587830258599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1587166879289" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1587166879289">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1587830258599" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1587830258599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1587166879289" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1587166879289">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1587830258599" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1587830258599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1587166879289" />
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1587156498663">
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1587830258599" />
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom" timestamp="1587221916016">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1587156498663" />
-    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1587156498663">
+    <state width="1493" height="265" key="GridCell.Tab.1.bottom/0.30.1536.834@0.30.1536.834" timestamp="1587221916016" />
+    <state width="1493" height="265" key="GridCell.Tab.1.center" timestamp="1587221916015">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1587156498663" />
-    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1587156498663">
+    <state width="1493" height="265" key="GridCell.Tab.1.center/0.30.1536.834@0.30.1536.834" timestamp="1587221916015" />
+    <state width="1493" height="265" key="GridCell.Tab.1.left" timestamp="1587221916015">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1587156498663" />
-    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1587156498663">
+    <state width="1493" height="265" key="GridCell.Tab.1.left/0.30.1536.834@0.30.1536.834" timestamp="1587221916015" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right" timestamp="1587221916015">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="265" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1587156498663" />
+    <state width="1493" height="265" key="GridCell.Tab.1.right/0.30.1536.834@0.30.1536.834" timestamp="1587221916015" />
     <state x="249" y="30" key="SettingsEditor" timestamp="1587149188365">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="249" y="30" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1587149188365" />
-    <state x="209" y="67" key="new project wizard" timestamp="1586858697319">
+    <state x="209" y="67" key="new project wizard" timestamp="1587648545084">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1586858697319" />
+    <state x="209" y="67" key="new project wizard/0.30.1536.834@0.30.1536.834" timestamp="1587648545084" />
     <state x="475" y="66" key="refactoring.ChangeSignatureDialog" timestamp="1586878923119">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="475" y="66" key="refactoring.ChangeSignatureDialog/0.30.1536.834@0.30.1536.834" timestamp="1586878923119" />
-    <state x="425" y="204" key="run.anything.popup" timestamp="1587135524082">
+    <state x="425" y="204" key="run.anything.popup" timestamp="1587653547421">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1587135524082" />
+    <state x="425" y="204" key="run.anything.popup/0.30.1536.834@0.30.1536.834" timestamp="1587653547421" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1587165406787">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

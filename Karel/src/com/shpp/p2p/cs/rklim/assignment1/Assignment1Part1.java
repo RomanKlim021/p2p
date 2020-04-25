@@ -54,9 +54,9 @@ public class Assignment1Part1 extends KarelTheRobot {
 
     // Karel turns right
     private void turnRight() throws Exception {
-        turnLeft();
-        turnLeft();
-        turnLeft();
+        for(int i=0; i<3; i++){
+            turnLeft();
+        }
     }
 
 }
